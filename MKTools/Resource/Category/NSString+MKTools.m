@@ -20,7 +20,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "NSString+FKTools.h"
+#import "NSString+MKTools.h"
 
 @implementation NSString (Repeater)
 

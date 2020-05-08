@@ -27,7 +27,7 @@
 #import "NSMacro.h"
 
 /// Category
-#import "NSString+FKTools.h"
+#import "NSString+MKTools.h"
 
 /// Tools
 #import "NSSequenceGenerator.h"

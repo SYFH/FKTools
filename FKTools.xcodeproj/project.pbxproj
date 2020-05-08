@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D1487C224640EBB00187107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1487C124640EBB00187107 /* main.m */; };
-		3D1487CB24640EEA00187107 /* NSString+FKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1487CA24640EEA00187107 /* NSString+FKTools.m */; };
+		3D1487CB24640EEA00187107 /* NSString+MKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1487CA24640EEA00187107 /* NSString+MKTools.m */; };
 		3D1487CF24640F5D00187107 /* NSSequenceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1487CD24640F5D00187107 /* NSSequenceGenerator.m */; };
 /* End PBXBuildFile section */
 
@@ -27,11 +27,11 @@
 /* Begin PBXFileReference section */
 		3D1487BE24640EBB00187107 /* FKTools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FKTools; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1487C124640EBB00187107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D1487C924640EEA00187107 /* NSString+FKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FKTools.h"; sourceTree = "<group>"; };
-		3D1487CA24640EEA00187107 /* NSString+FKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FKTools.m"; sourceTree = "<group>"; };
+		3D1487C924640EEA00187107 /* NSString+MKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MKTools.h"; sourceTree = "<group>"; };
+		3D1487CA24640EEA00187107 /* NSString+MKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKTools.m"; sourceTree = "<group>"; };
 		3D1487CD24640F5D00187107 /* NSSequenceGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSequenceGenerator.m; sourceTree = "<group>"; };
 		3D1487CE24640F5D00187107 /* NSSequenceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSequenceGenerator.h; sourceTree = "<group>"; };
-		3D1487D124640F8F00187107 /* FKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKTools.h; sourceTree = "<group>"; };
+		3D1487D124640F8F00187107 /* MKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTools.h; sourceTree = "<group>"; };
 		3D1487D524641E9C00187107 /* NSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		3D1487B524640EBB00187107 = {
 			isa = PBXGroup;
 			children = (
-				3D1487C024640EBB00187107 /* FKTools */,
+				3D1487C024640EBB00187107 /* MKTools */,
 				3D1487BF24640EBB00187107 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,20 +62,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D1487C024640EBB00187107 /* FKTools */ = {
+		3D1487C024640EBB00187107 /* MKTools */ = {
 			isa = PBXGroup;
 			children = (
 				3D1487D32464133D00187107 /* Demo */,
 				3D1487D024640F7900187107 /* Resource */,
 			);
-			path = FKTools;
+			path = MKTools;
 			sourceTree = "<group>";
 		};
 		3D1487C824640EC200187107 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				3D1487C924640EEA00187107 /* NSString+FKTools.h */,
-				3D1487CA24640EEA00187107 /* NSString+FKTools.m */,
+				3D1487C924640EEA00187107 /* NSString+MKTools.h */,
+				3D1487CA24640EEA00187107 /* NSString+MKTools.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -95,7 +95,7 @@
 				3D1487D424641E3A00187107 /* Macro */,
 				3D1487CC24640F5100187107 /* Tools */,
 				3D1487C824640EC200187107 /* Category */,
-				3D1487D124640F8F00187107 /* FKTools.h */,
+				3D1487D124640F8F00187107 /* MKTools.h */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1487CF24640F5D00187107 /* NSSequenceGenerator.m in Sources */,
-				3D1487CB24640EEA00187107 /* NSString+FKTools.m in Sources */,
+				3D1487CB24640EEA00187107 /* NSString+MKTools.m in Sources */,
 				3D1487C224640EBB00187107 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
